@@ -1,9 +1,7 @@
 body{
     background-color: black;
 }
-h1{
-    color: aliceblue;
-}
+
 .sidebar__navegation .logo img{
     width: 80px;
 }
@@ -44,4 +42,59 @@ h1{
     background-color: #121212;
     border-radius: 8px;
     padding: 16px 0 0 16px;
+}
+
+.biblioteca{
+    background-color: #121212;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 16px 0 16px 16px;
+}
+
+.biblioteca a{
+    color: #b3b3b3 ;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif ;
+}
+
+.biblioteca div{
+    background-color: #282828;
+    border-radius: 8px;
+    margin: 16px 16px 16px 0px;
+}
+
+.biblioteca h3{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif ;
+    padding: 16px 5px 5px 16px;
+}
+
+.biblioteca h4{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif ;
+    padding: 0px 5px 5px 16px;
+}
+
+.biblioteca button{
+    display:flex;
+    margin-right: 10px;
+    color:#b3b3b3;
+    background-color: transparent;
+    border:0px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding:20px 10px;
+    
 }
